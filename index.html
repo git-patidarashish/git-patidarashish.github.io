@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      padding-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main role="main">
+    <section id="about" class="container">
+      <h2>About Me</h2>
+      <p>
+        Write a brief description about yourself here.
+      </p>
+      <p>
+        <strong>LinkedIn:</strong> <a href="linkedin.com/in/patidarashish/">linkedin.com/in/patidarashish/</a><br>
+        <strong>Email:</strong> ashish.patidar01@gmail.com<br>
+        <strong>Github:</strong> <a href="github.com/git-patidarashish">github.com/git-patidarashish</a><br>
+        <strong>Mobile:</strong> +1(812)778-6875
+      </p>
+    </section>
+
+    <section id="education" class="container">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <strong>Indiana University, Bloomington, IN</strong><br>
+          <em>Master of Science- Data Science</em><br>
+          Aug 2021 - May 2023<br>
+          GPA: 3.8<br>
+          Associate Instructor: STAT-S 520 Introduction to Statistics
+        </li>
+        <li>
+          <strong>Rajiv Gandhi Technical University, Bhopal, India</strong><br>
+          <em>Bachelor of Engineering- Information Technology</em><br>
+          Aug 2015 - May 2019<br>
+          GPA: 3.8(8.2/10)
+        </li>
+      </ul>
+    </section>
+
+    <section id="experience" class="container">
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <strong>Research Assistant, Indiana University, Bloomington, IN</strong><br>
+          Jun 2022 - Aug 2022<br>
+          - Analysis of Crowd-Sourced Microfinance: Kiva: Performed acquisition, feature engineering, and visualization
+          <br>of data for more than 22500 users using Kiva API, GraphQL on Python, and ggplot2 library of R.
+          <br>- Reduced time spent by 62% using STATA’s parallel processing module.
+        </li>
+        <li>
+          <strong>Research Assistant, Indiana University, Bloomington, IN</strong><br>
+          May 2022 - Aug 2022<br>
+          - Longitudinal Study of Health and Retirement Data: Analyzed the 25 GB of HRS data from 1993 to 2018, using
+          <br>seaborn and pandas to interpret disabled people’s access to travel and lodging services.
+          <br>- Migrated the website and data from the private server to university’s server as part of the PATH 360 research program.
+        </li>
+        <li>
+          <strong>Data Analyst, Alliant Infotech, Indore, India</strong><br>
+          Jul 2019 - Jun 2021<br>
+          - Managed and maintained the server using MySQL and MongoDB.
+          <br>- Developed an algorithm for big data wrangling & preprocessing to improve data collection & storage on servers.
+          <br>- Improved an e-commerce client rank on search engines by performing web analytics & search engine optimization.
+          <br>- Achieved 72% accuracy by conducting predictive analysis for a credit card company on stock prices.
+          <br>- Facilitated the preapproval of credit cards by developing a classifier based on essential features extracted using PCA for
+          <br>more than 10000 customers.
+        </li>
+        <li>
+          <strong>Machine Learning and BigData Intern, Techlene, Indore, India</strong><br>
+          Jun 2018 - Aug 2018<br>
+          - Built an ETL pipeline for a local hospital network using Teradata.
+          <br>- Analyzed the data utilizing Hadoop, Hive, PySpark, and Apache-Storm.
+          <br>- Implemented an ANN-based cancer progression prediction model using TensorFlow; achieved a 36% reduction in
+          <br>training time by adopting batch normalization for the model.
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Crossroads Classics Analytics Challenge</strong><br>
+          Jan 2023 - Mar 2023<br>
+          - Built ML models using Random Forest, XGBoost, & CatBoost to predict attendance numbers for Indiana Colts.
+          <br>- Performed EDA, feature engineering, and hyperparameter tuning using GridSearchCV, randomSearchCV,
+          <br>bayessearchCV, & stratifiedKFold
+          <br>- Led team to secure 2nd position in the university and 4th position in the state of Indiana, showcasing exceptional
+          <br>performance and teamwork.
+        </li>
+        <li>
+          <strong>Distributed MapReduce for Text Recognition</strong><br>
+          Aug 2022 - Dec 2022<br>
+          - Developed a client-server model to divide and execute tasks based on the available resources of each client using flask
+          <br>and multi-threading.
+          <br>- Successfully deployed the master and workers on the Jetstream cloud.
+          <br>- Reduced installation overhead by 90% while achieving comparable results to Spark for OCR task.
+        </li>
+        <li>
+          <strong>Audio to Tree Alignment</strong><br>
+          Aug 2022 - Dec 2022<br>
+          - Designed an algorithm to align the Nahuatl Audio file to the dependency tree based on the time-annotated transcript file
+          <br>utilizing nltk, glob, pympi, conllu, and pyconll libraries of Python.
+          <br>- Achieved 75% accuracy while aligning the tokenized sentences from time annotated transcripts to dependency tree
+          <br>CoNLL file containing 1200 sentences.
+        </li>
+        <li>
+          <strong>Analysis of Media Coverage on Common COVID-19 Glossary</strong><br>
+          March 2022 - May 2022<br>
+          - Storyboarded 700 GB of media data on COVID-19 by designing an interactive dashboard using Tableau.
+          <br>- Performed geospatial, topical, & temporal visualization & analysis using Google Data Studio & BigQuery.
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills" class="container">
+      <h2>Skills Summary</h2>
+      <ul>
+        <li>Languages/Databases: Python, C++, Java, C, R Language, SQL, NoSQL</li>
+        <li>Statistical Techniques: T-test, Chi-Squared Test, ANOVA, Monte-Carlo, and Gibbs Sampling</li>
+        <li>Machine Learning Techniques: Regression, Bayes Theorem, Predictive Modelling, Decision Trees</li>
+        <li>Additional Technical Skills: Apache-Spark, Pig, Hive, BigQuery</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact</h2>
+      <p>
+        You can reach me through the following channels:<br>
+        <strong>Email:</strong> ashish.patidar01@gmail.com<br>
+        <strong>Mobile:</strong> +1(812)778-6875<br>
+        <strong>LinkedIn:</strong> <a href="linkedin.com/in/patidarashish/">linkedin.com/in/patidarashish/</a><br>
+        <strong>Github:</strong> <a href="github.com/git-patidarashish">github.com/git-patidarashish</a>
+      </p>
+    </section>
+  </main>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
